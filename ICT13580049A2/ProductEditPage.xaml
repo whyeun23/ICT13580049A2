@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="ICT13580049A2.ProductEditPage">
+	    <Frame Margin="10">
+        <StackLayout BackgroundColor="Yellow" Padding="10">
+            <Label VerticalTextAlignment="Center" Margin="0,10" Text="เพิ่มสินค้าใหม่" BackgroundColor="Fuchsia" />
+            <Label Text="" BackgroundColor="Olive" />
+            <Entry Placeholder="ชื่อสินค้า" x:Name="nameEntry" />
+            <Label Text="รายละเอียดสินค้า" BackgroundColor="Olive" />
+            <Entry Placeholder="รายละเอียดสินค้า" x:Name="desEntry" />
+            <Label Text="ราคาสินค้า" BackgroundColor="Olive" />
+            <Entry Placeholder="ราคาสินค้า" x:Name="productPriceEntry" />
+            <Label Text="ราคาขาย" BackgroundColor="Olive" />
+            <Entry Placeholder="ราคาขาย" x:Name="sellPriceEntry" />
+            <Label Text="จำนวนสินค้าในสต็อก" BackgroundColor="Olive" />
+            <Entry Placeholder="จำนวนสินค้าในสต็อก" x:Name="stockEntry" />
+            <Label Text="หมวด" BackgroundColor="Olive" />
+            <Picker Title="เลือกหมวด" x:Name="categoryPicker" />
+            <Button Text="ตกลง" TextColor="White" BackgroundColor="Green" x:Name="okButton" />
+            <Button Text="ยกเลิก" TextColor="White" BackgroundColor="Red" x:Name="cancelButton" />
+        </StackLayout>
+    </Frame>
+</ContentPage>
